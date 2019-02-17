@@ -1,11 +1,12 @@
 
 # 목차
 
-1.  [OpenJDK Install](#openjdk-install)
-2.  [Kotlin Compiler Install](#kotlin-compiler-install)
-3.  [Kotlin Compile & Execute](#kotlin-compile---execute)
-4.  [Hello World 출력](#hello-world-출력)
-
+1. [OpenJDK Install](#openjdk-install)
+2. [Kotlin Compiler Install](#kotlin-compiler-install)
+3. [Kotlin Compile & Execute](#kotlin-compile---execute)
+4. [Hello World 출력](#hello-world-출력)
+5. [Kotlin의 특징](#kotlin의-특징)
+6. [변수 `Variable`](#변수-variable)
   
 
 ## OpenJDK Install
@@ -115,6 +116,5 @@ fun main(args: Array<String>) {
 - 변경 가능한 참조를 저장하는 변수
 - 자바의 일반 변수에 해당
 - 변수의 값을 변경할 수 있지만 변수의 타입은 고정됨
-
-> - 기본적으로 모든 변수를 `val` 키워드를 사용해 불변 변수로 선언하여 사용. 꼭 필요한 때에만 var로 변경  
-> - 변경 불가능한 참조와 변경 불가능한 객체를 부수 효과가 없는 함수와 조합해 사용하면 코드가 함수형 코드에 가까워진다.
+    - 기본적으로 모든 변수를 `val` 키워드를 사용해 불변 변수로 선언하여 사용. 꼭 필요한 때에만 var로 변경  
+    - 변경 불가능한 참조와 변경 불가능한 객체를 부수 효과가 없는 함수와 조합해 사용하면 코드가 함수형 코드에 가까워진다.
