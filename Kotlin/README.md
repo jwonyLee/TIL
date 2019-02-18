@@ -3,10 +3,11 @@
 
 1. [OpenJDK Install](#openjdk-install)
 2. [Kotlin Compiler Install](#kotlin-compiler-install)
-3. [Kotlin Compile & Execute](#kotlin-compile---execute)
+3. [Kotlin Compile & Execute](#kotlin-compile--execute)
 4. [Hello World 출력](#hello-world-출력)
 5. [Kotlin의 특징](#kotlin의-특징)
 6. [변수 `Variable`](#변수-variable)
+7. [클래스`Class`와 프로퍼티`Property](#클래스class와-프로퍼티property)
   
 
 ## OpenJDK Install
