@@ -20,11 +20,8 @@ $ sudo apt-get install openjdk-8-jre
 
 ```shell
 $ java -version
-
 openjdk version "1.8.0_191"
-
 OpenJDK Runtime Environment (build 1.8.0_191-8u191-b12-2ubuntu0.18.04.1-b12)
-
 OpenJDK 64-Bit Server VM (build 25.191-b12, mixed mode)
 ```
 
@@ -121,6 +118,7 @@ fun main(args: Array<String>) {
     - 변경 불가능한 참조와 변경 불가능한 객체를 부수 효과가 없는 함수와 조합해 사용하면 코드가 함수형 코드에 가까워진다.
 
 ## 클래스`Class`와 프로퍼티`Property`
+### 클래스`Class`
 ```kotlin
 class Person(val name: String)
 ```
@@ -144,3 +142,39 @@ Kotlin의 경우
 - `var`로 선언한 프로퍼티는 변경 가능
 - 게터를 호출하는 대신 프로퍼티를 직접 사용
 - 세터도 동일한 방식으로 동작. 변수에 직접 대입
+
+
+## `enum`과 `when`
+
+### `enum` 클래스
+```kotlin
+enum class Color {
+    RED, ORANGE, YELLOW, GREEN, BLUE, INDIGO, VIOLET
+}
+```
+- 코틀린에서 `enum`은 소프트 키워드`soft keyword`
+    - `class` 앞에 있을 때는 특별한 의미를 지님
+    - 다른 곳에서는 이름에 사용할 수 있음
+- 코틀린에서 `class`는 키워드
+    - 이름으로 사용할 수 없음
+- 프로퍼티나 메소드를 정의할 수 있음
+    ```kotlin
+    enum class Color (val r: Int, val g: Int, val b: Int) {
+        RED(255,0,0), ORANGE(255,165,0),
+        YELLOW(255,255,0), GREEN(0,255,0), BLUE(0,0,255),
+        INDIGO(75,0,130), VIOLET(238,130,238);
+
+        fun rgb() = (r * 256 + g) * 256 + b
+    }
+    ```
+    - `enum` 클래스 안에 메소드를 정의하는 경우 반드시 `enum` 상수 목록과 메소드 정의 사이에 세미콜론을 넣어야 함.
+
+### `when`
+- 코틀린에서 `when`은 자바에서 `switch`에 대응함
+- 값을 만들어내는 식에 해당함
+- `break`를 넣지 않아도 됨
+- 한 분기 안에서 여러 값을 매치 패턴으로 사용할 수 있음. 콤마(,)로 분리
+- 인자 없는 `when`
+    - 불필요한 객체 생성을 막을 수 있음
+    - 각 분기의 조건이 `boolean` 결과를 계산하는 식이어야 함
+    
