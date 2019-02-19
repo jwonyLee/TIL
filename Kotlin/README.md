@@ -7,7 +7,8 @@
 4. [Hello World 출력](#hello-world-출력)
 5. [Kotlin의 특징](#kotlin의-특징)
 6. [변수 `Variable`](#변수-variable)
-7. [클래스`Class`와 프로퍼티`Property](#클래스class와-프로퍼티property)
+7. [클래스`Class`와 프로퍼티`Property`](#클래스class와-프로퍼티property)
+8. [`enum`과 `when`](#enum과-when)
   
 
 ## OpenJDK Install
