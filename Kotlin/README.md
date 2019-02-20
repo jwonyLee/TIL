@@ -8,8 +8,8 @@
 5. [Kotlin의 특징](#kotlin의-특징)
 6. [변수 `Variable`](#변수-variable)
 7. [클래스`Class`와 프로퍼티`Property](#클래스class와-프로퍼티property)
-8. [반복문](#반복문)
-  
+8. [`enum`과 `when`](#enum과-when)
+9. [반복문](#반복문)
 
 ## OpenJDK Install
 
