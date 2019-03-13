@@ -1,4 +1,5 @@
 // https://www.acmicpc.net/problem/10951
+// 문제 후기 https://j-archives.tistory.com/28
 
 import java.util.Scanner;
 
