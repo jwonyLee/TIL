@@ -146,3 +146,5 @@ hs_err_pid*
 .history
 
 # End of https://www.gitignore.io/api/git,java,kotlin,intellij,visualstudiocode
+
+.idea/*
