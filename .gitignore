@@ -2,6 +2,9 @@
 # Created by https://www.gitignore.io/api/git,java,kotlin,intellij,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=git,java,kotlin,intellij,visualstudiocode
 
+# BOJ
+PS/BOJ/src/BOJ7287.java
+
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
