@@ -30,3 +30,15 @@
 오버라이딩(overriding)
 
 - 상위 클래스의 메소드와 이름과 용례(signature)가 같은 함수를 하위 클래스에 재정의하는 것
+
+### 컬렉션 프레임워크
+
+- ArrayList
+  - 동적으로 크기가 조절되는 배열. 새 원소를 삽입하면 크기가 늘어난다.
+- Vector
+  - ArrayList와 비슷하지만 동기화(synchronize)되어 있다는 차이가 있다. 
+- LinkedList
+  - 순환자(iterator)를 어떻게 사용해야 하는지를 잘 보여줌
+- HashMap
+  - Key와 Value를 하나로 묶어 사용
+
