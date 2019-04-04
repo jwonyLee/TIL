@@ -1,9 +1,6 @@
 
-# Created by https://www.gitignore.io/api/git,java,kotlin,intellij,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=git,java,kotlin,intellij,visualstudiocode
-
-# BOJ
-PS/BOJ/src/BOJ7287.java
+# Created by https://www.gitignore.io/api/git,java,kotlin,windows,intellij
+# Edit at https://www.gitignore.io/?templates=git,java,kotlin,windows,intellij
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -88,6 +85,9 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
+# JetBrains templates
+**___jb_tmp___
+
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
@@ -137,97 +137,6 @@ hs_err_pid*
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-
-# End of https://www.gitignore.io/api/git,java,kotlin,intellij,visualstudiocode
-
-.idea/*
-/.metadata/
-
-
-
-# Created by https://www.gitignore.io/api/eclipse,windows
-# Edit at https://www.gitignore.io/?templates=eclipse,windows
-
-### Eclipse ###
-
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.recommenders
-
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# PyDev specific (Python IDE for Eclipse)
-*.pydevproject
-
-# CDT-specific (C/C++ Development Tooling)
-.cproject
-
-# CDT- autotools
-.autotools
-
-# Java annotation processor (APT)
-.factorypath
-
-# PDT-specific (PHP Development Tools)
-.buildpath
-
-# sbteclipse plugin
-.target
-
-# Tern plugin
-.tern-project
-
-# TeXlipse plugin
-.texlipse
-
-# STS (Spring Tool Suite)
-.springBeans
-
-# Code Recommenders
-.recommenders/
-
-# Annotation Processing
-.apt_generated/
-
-# Scala IDE specific (Scala & Java development for Eclipse)
-.cache-main
-.scala_dependencies
-.worksheet
-
-### Eclipse Patch ###
-# Eclipse Core
-.project
-
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
-
-# Annotation Processing
-.apt_generated
-
-.sts4-cache/
-
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -253,4 +162,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/eclipse,windows
+# End of https://www.gitignore.io/api/git,java,kotlin,windows,intellij
