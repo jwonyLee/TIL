@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-class solution42748 {
+public class solution42748 {
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
 
