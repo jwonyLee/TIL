@@ -16,4 +16,20 @@ public class ArrayandString {
         }
         return true;
     }
+
+    /* 1.1 중복이 없는가
+     * - 소문자 a부터 z까지 구성된다고 가정
+     * - 비트 벡터 사용
+     */
+    boolean isUniqueChars2(String str) {
+        int checker = 0;
+        for (int i=0; i < str.length(); i++) {
+            int val = str.charAt(i) - 'a';
+            if ((checker & (1 << val)) > 0) {
+                return false;
+            }
+            checker |= (1 << val);
+        }
+        return true;
+    }
 }
