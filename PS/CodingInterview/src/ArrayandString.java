@@ -23,12 +23,49 @@ public class ArrayandString {
      */
     boolean isUniqueChars2(String str) {
         int checker = 0;
-        for (int i=0; i < str.length(); i++) {
+        for (int i = 0; i < str.length(); i++) {
             int val = str.charAt(i) - 'a';
             if ((checker & (1 << val)) > 0) {
                 return false;
             }
             checker |= (1 << val);
+        }
+        return true;
+    }
+
+    /* 1.2 순열 확인 */
+    /* 두 문자열이 서로 순열 관계라면 -> 같은 문자로 구성 & 순서만 다름 */
+    private String sort(String s) {
+        char[] content = s.toCharArray();
+        java.util.Arrays.sort(content);
+        return new String(content);
+    }
+
+    public boolean permutation(String s, String t) {
+        if (s.length() != t.length()) return false; // 두 문자열이 순열이라면 문자열의 길이가 같아야 함.
+        return sort(s).equals(sort(t));
+    }
+
+    /* 1.2 순열 확인
+    - 문자열에 포함된 문자의 출현 횟수가 같은지 검사
+     */
+
+    boolean permutation2(String s, String t) {
+        if (s.length() != t.length()) return false;
+
+        int[] letters = new int[128]; // 가정
+
+        char[] s_array = s.toCharArray();
+        for (char c : s_array) { // s 내에서 각 문자의 출현 횟수를 센다.
+            letters[c]++;
+        }
+
+        for (int i = 0; i < t.length(); i++) {
+            int c = (int) t.charAt(i);
+            letters[c]--;
+            if (letters[c] < 0) {
+                return false;
+            }
         }
         return true;
     }
