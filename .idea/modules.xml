@@ -4,12 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PS/BOJ/BOJ.iml" filepath="$PROJECT_DIR$/PS/BOJ/BOJ.iml" />
       <module fileurl="file://$PROJECT_DIR$/PS/CodingInterview/CodingInterview.iml" filepath="$PROJECT_DIR$/PS/CodingInterview/CodingInterview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kotlin/Kotlin-In-Action/Kotlin-In-Action.iml" filepath="$PROJECT_DIR$/Kotlin/Kotlin-In-Action/Kotlin-In-Action.iml" />
       <module fileurl="file://$PROJECT_DIR$/PS/Programmers/Programmers.iml" filepath="$PROJECT_DIR$/PS/Programmers/Programmers.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programmers/Programmers.iml" filepath="$PROJECT_DIR$/Programmers/Programmers.iml" />
       <module fileurl="file://$PROJECT_DIR$/PS/SWExpertAcademy/SWExpertAcademy.iml" filepath="$PROJECT_DIR$/PS/SWExpertAcademy/SWExpertAcademy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SWExpertAcademy/SWExpertAcademy.iml" filepath="$PROJECT_DIR$/SWExpertAcademy/SWExpertAcademy.iml" />
     </modules>
   </component>
 </project>
