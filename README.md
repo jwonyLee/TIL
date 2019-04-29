@@ -13,4 +13,5 @@
 - PS
   - [BOJ](https://github.com/jwonyLee/TIL/tree/master/PS/BOJ)
   - [프로그래머스](https://github.com/jwonyLee/TIL/tree/master/PS/Programmers)
-  - [SW Expert Academ](https://github.com/jwonyLee/TIL/tree/master/PS/SWExpertAcademy)
+  - [SW Expert Academy](https://github.com/jwonyLee/TIL/tree/master/PS/SWExpertAcademy)
+
