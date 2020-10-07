@@ -15,7 +15,7 @@
 - [멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.](./Multi-Thread.md)
 - [MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.](https://www.notion.so/jwonylee/MVC-dc71851494e84fad82d298e9e6f7a808)
 - [프로토콜이란 무엇인지 설명하시오.](./Protocol.md)
-- Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.
+- [Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.](./Hashable-Equatable.md)
 - mutating 키워드에 대해 설명하시오.
 - 탈출 클로저에 대하여 설명하시오.
 - Extension에 대해 설명하시오.
