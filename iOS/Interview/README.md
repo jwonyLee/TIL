@@ -16,8 +16,8 @@
 - [MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.](https://www.notion.so/jwonylee/MVC-dc71851494e84fad82d298e9e6f7a808)
 - [프로토콜이란 무엇인지 설명하시오.](./Protocol.md)
 - [Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.](./Hashable-Equatable.md)
-- mutating 키워드에 대해 설명하시오.
-- 탈출 클로저에 대하여 설명하시오.
+- [mutating 키워드에 대해 설명하시오.](./Mutating.md)
+- [탈출 클로저에 대하여 설명하시오.](./Escaping-Closure.md)
 - Extension에 대해 설명하시오.
 - 접근 제어자의 종류엔 어떤게 있는지 설명하시오
 - defer란 무엇인지 설명하시오.
