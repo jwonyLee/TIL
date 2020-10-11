@@ -28,3 +28,51 @@
 스위프트 프로그래밍 3판, 야곰 지음
 
 [탈출 클로저 (@escaping closure)](https://jinios.github.io/swift/2018/06/13/escaping/)
+
+### 스터디
+
+```swift
+func callBack(fn: () -> void) {
+    let f = fn
+    fn()
+}
+```
+- 매개변수로 받은 클로저를 내부 변수에 저장할 수 없음
+    - non escaping parameter may only be called
+```swift
+func callBack(fn: @escaping () -> void) {
+    let f = fn
+    f()
+}
+```
+- 클로저의 기본값이 non-excaping인 이유
+    → 컴파일러가 코드를 최적화하는 과정에서 성능 향상
+- 탈출
+    - 클로저가 안에 있다가 바깥에서 벗어나서 실행하게되는걸.. 탈출이라고 한다
+```swift
+class Server { 
+    static var persons: [Person] = [] 
+    
+    static getPerson(completion: @escaping (Bool, [Person]) -> Void) {
+    // 순서 2. 
+        Alamofire.request(urlRequest).responseJSON { 
+            response in persons.append(데이터) DispatchQueue.main.async { 
+                // 순서 3. 
+                completion(true, persons) 
+            }
+        } 
+    }
+}
+// Usage, ex) ViewController.swift
+// 순서 1.
+Server.getPerson { (isSuccess, persons) in 
+    // 순서 4. 
+    if isSuccess { 
+        // update UI
+    }
+}
+```
+- 탈출 클로저임을 명시한 경우, 클로저 내부에서 해당 타입의 프로퍼티나 메서드, 서브스크립트 등에 접근하기 위해서는 반드시 `self` 키워드를 사용해야 한다.
+- 비탈출의 경우 반드시 명시해줄 필요는 없다. (선택적)
+- 스위프트 프로그래밍 3판 267p, withoutActuallyEscaping 읽기
+- 값 타입의 경우, 탈출 클로저는 mutable reference를 캡쳐링 할 수 없기 때문에 에러가 발생함
