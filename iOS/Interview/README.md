@@ -18,7 +18,7 @@
 - [Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.](./Hashable-Equatable.md)
 - [mutating 키워드에 대해 설명하시오.](./Mutating.md)
 - [탈출 클로저에 대하여 설명하시오.](./Escaping-Closure.md)
-- Extension에 대해 설명하시오.
+- [Extension에 대해 설명하시오.](./Extension.md)
 - 접근 제어자의 종류엔 어떤게 있는지 설명하시오
 - defer란 무엇인지 설명하시오.
 - defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.
