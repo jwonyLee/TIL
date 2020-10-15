@@ -20,8 +20,8 @@
 - [탈출 클로저에 대하여 설명하시오.](./Escaping-Closure.md)
 - [Extension에 대해 설명하시오.](./Extension.md)
 - [접근 제어자의 종류엔 어떤게 있는지 설명하시오.](./Access-Modifier.md)
-- defer란 무엇인지 설명하시오.
-- defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.
+- [defer란 무엇인지 설명하시오.](./defer.md)
+- [defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.](./defer-call.md)
 
 ## iOS
 - Bounds 와 Frame 의 차이점을 설명하시오.
