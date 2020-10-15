@@ -47,3 +47,10 @@ def iterative_bfs(start_v):
                 queue.append(w)
     return discovered
 ```
+
+그래프가 작아서 그런지 최적화하기 전 코드가 더 빨리 실행되는데, 노드와 간선의 수가 많아지면 최적화한 코드가 더 빨라질 거 같음
+
+## 재귀 구현 불가
+```
+💡 BFS는 재귀로 구현할 수 없다
+```
