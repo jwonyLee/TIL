@@ -1,9 +1,9 @@
 Algorithms/test.py
-Algorithms/BOJ/1158.py
-Algorithms/BOJ/10799.py
-Algorithms/BOJ/17298.py
-Algorithms/BOJ/1918.py
-Algorithms/BOJ/6588.py
+Algorithms/BOJ/Python/1158.py
+Algorithms/BOJ/Python/10799.py
+Algorithms/BOJ/Python/17298.py
+Algorithms/BOJ/Python/1918.py
+Algorithms/BOJ/Python/6588.py
 
 # Created by https://www.gitignore.io/api/git,python,windows,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=git,python,windows,visualstudiocode
@@ -164,5 +164,34 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 # End of https://www.gitignore.io/api/git,python,windows,visualstudiocode
