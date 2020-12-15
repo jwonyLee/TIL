@@ -45,7 +45,7 @@
 - [UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.](./Layer.md)
 - [UIWindow 객체의 역할은 무엇인가?](./UIWindow.md)
 - UINavigationController 의 역할이 무엇인지 설명하시오.
-- 모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?
+- [모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?](./ViewController.md)
 - [앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?](./UIApplicationMain.md)
 - UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?
 - 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇이라고 하는가?
