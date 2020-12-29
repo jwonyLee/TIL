@@ -50,7 +50,7 @@
 - UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?
 - [앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇이라고 하는가?](./Store.md)
 - [앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇이라고 하는가?](./UIViewController.md)
-- Swift의 클로저와 Objective-C의 블록은 어떤 차이가 있는가?
+- [Swift의 클로저와 Objective-C의 블록은 어떤 차이가 있는가?](./Closure-Block.md)
 - App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
 - App thinning에 대해서 설명하시오.
 - Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
