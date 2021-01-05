@@ -9,6 +9,7 @@ App Store에서 사용할 수 있고 TestFlight를 사용하여 테스터에게 
 App thinning을 사용하려면:
 
 1. 앱을 Xcode에 보관한다.
+
     ![Product > Archive](app-thinning-1.png)
 
 2. Organizer 창에서 보관된 앱을 선택하고 앱 배포를 클릭한다.
@@ -41,8 +42,8 @@ App thinning을 사용하려면:
 
 ## 참고 자료
 
-[](https://help.apple.com/xcode/mac/11.0/index.html?localePath=en.lproj#/devbbdc5ce4f)
+[What is app thinning? (iOS, tvOS, watchOS)](https://help.apple.com/xcode/mac/11.0/index.html?localePath=en.lproj#/devbbdc5ce4f)
 
-[Apple Developer Documentation](https://developer.apple.com/documentation/xcode/reducing_your_app_s_size/doing_advanced_optimization_to_further_reduce_your_app_s_size)
+[Doing Advanced Optimization to Further Reduce Your App’s Size - Apple Developer Documentation](https://developer.apple.com/documentation/xcode/reducing_your_app_s_size/doing_advanced_optimization_to_further_reduce_your_app_s_size)
 
 [App Thinning in Xcode - WWDC 2015 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2015/404/)
