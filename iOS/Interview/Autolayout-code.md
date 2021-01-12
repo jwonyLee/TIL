@@ -53,7 +53,7 @@ NSLayoutConstraint.activate(constraints)
 | 우선 순위 | `[button(100@20)]` | ![우선 순위](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/priority.png) |
 | 동일한 폭 | `[button1(==button2)]` | ![동일한 폭](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/equalWidths.png) |
 | Multiple Predicates | `[flexibleButton(>=70, <=100)]` | ![Multiple Predicates](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/multiplePredicates.png) |
-| A Complete Line of Layout | `|-[find]-[findNext]-[findField(>=200)]=|` | ![A Complete Line of Layout](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/completeLayout.png) |
+| A Complete Line of Layout | `\|-[find]-[findNext]-[findField(>=200)]=\|` | ![A Complete Line of Layout](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/completeLayout.png) |
 
 
 ## 참고 자료
