@@ -47,7 +47,7 @@ NSLayoutConstraint.activate(constraints)
 | ------- | ---------------------- | ----- |
 | 표준 공간 | `[button]-[textField]` | ![표준 공간](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/standardSpace.png) |
 | 폭 제약 | `[button(>=50)]` | ![폭 제약](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/widthConstraint.png) |
-| Superview에 연결 | `|-50-[purpleBox]-50-|` | ![Superview에 연결](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/connectionToSuperview.png) |
+| Superview에 연결 | `\|-50-[purpleBox]-50-\|` | ![Superview에 연결](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/connectionToSuperview.png) |
 | 수직 레이아웃 | `V: [topField]-10-[bottomField]` | ![수직 레이아웃](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/verticalLayout.png) |
 | 플러시 뷰 | `[maroonView][blueView]` | ![플러시 뷰](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/flushViews.png) |
 | 우선 순위 | `[button(100@20)]` | ![우선 순위](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/priority.png) |
