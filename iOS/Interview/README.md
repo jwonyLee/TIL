@@ -61,10 +61,10 @@
 - Intrinsic Size에 대해서 설명하시오.
 - [스토리보드를 이용했을때의 장단점을 설명하시오.](./Storyboard.md)
 - Safearea에 대해서 설명하시오.
-- Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.
+- [Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.](./Left-Constraint-Leading-Constraint.md)
 
 ## ARC
-- ARC란 무엇인지 설명하시오.
+- [ARC란 무엇인지 설명하시오.](./ARC.md)
 - Retain Count 방식에 대해 설명하시오.
 - Strong 과 Weak 참조 방식에 대해 설명하시오.
 - ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.
