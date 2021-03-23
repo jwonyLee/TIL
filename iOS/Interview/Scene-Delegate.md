@@ -60,4 +60,5 @@ scene이 background로 갈 때마다 iOS는 리소스를 확보하기 위해 sce
 ### 참고 자료
 
 [[iOS] AppDelegate와 SceneDelegate](https://velog.io/@dev-lena/iOS-AppDelegate와-SceneDelegate)
+
 [Understanding Scene Delegate & App Delegate](https://medium.com/@kalyan.parise/understanding-scene-delegate-app-delegate-7503d48c5445)
