@@ -19,4 +19,10 @@ App이 실행 중이지만 이벤트를 받지 않는 상태
 - 시나리오 4. 앱이 백그라운드에 있다가 Suspended 상태로 전이됩니다.
     - `Active` → `In-Active` → `Background` → `Suspended`
 
+### 참고 자료
+
 [iOS Application state](https://caution-dev.github.io/ios/2019/03/14/iOS-Application-state.html)
+
+### 생각해보기
+
+iOS 14부터 일부 인터페이스가 컴팩트하게 변경되었다. 기존(iOS 14 이전)에는 전화가 오면 앱에 상태가 Active → In-Active → Background로 변경되었는데, 이렇게 UI가 변경된 상황(앱을 가리지 않음)에서는 앱이 In-Active를 진입할까?
