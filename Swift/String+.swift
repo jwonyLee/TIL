@@ -4,6 +4,13 @@
 import Foundation
 
 extension String {
+    subscript(offset: Int) -> String {
+        get {
+            let index = String.Index(utf16Offset: offset, in: self)
+            return String(self[index])
+        }
+    }
+    
     subscript(r: Range<Int>) -> String {
         get {
             let startIndex = self.index(self.startIndex, offsetBy: r.lowerBound)
